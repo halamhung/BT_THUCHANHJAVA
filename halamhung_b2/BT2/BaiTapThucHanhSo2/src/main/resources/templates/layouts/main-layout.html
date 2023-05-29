@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Page 1 Title</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <!-- Other Javascript, css source file -->
+</head>
+<body>
+    <header>
+        <h2>Khoa CNTT - HUTECH</h2>
+    </header>
+    <secion>
+        <nav>
+            <ul>
+                <li><a href="/home">Home</a></li>
+                <li><a href="/product">Product</a></li>
+                <li><a href="/contact">Contact</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+        <article layout:fragment="content">
+            <h2>Trang chủ</h2>
+            <p>Đây là trang chủ của tôi</p>
+        </article>
+    </secion>
+    <footer>
+        <p>Footer</p>
+        <p>Bài tập Thymeleaf Layout - Võ Tấn Dũng</p>
+    </footer>
+</body>
+</html>
